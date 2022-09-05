@@ -1,0 +1,43 @@
+@use '_variables.scss' as *;
+@use '_cards';
+@use '_media-queries.scss';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+body{
+    padding: 0;
+    padding: 0;
+    font-family: $poppins;
+    font-size: 15px;
+    box-sizing: border-box;
+    color: $VeryDarkBlue;
+    background-color: $VeryLightGray;
+}
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+    a { color: hsl(228, 45%, 44%); } 
+}
+
+.container{
+    margin: 90px 30px;
+}
+
+header{
+    text-align: center;
+    h1{
+        font-weight: 200;
+        font-size: 1.6em;
+        margin: 0;
+    }
+    h2{
+        font-weight: 600;
+        font-size: 1.6em;
+        margin: 0;
+    }
+    p{
+        font-size: 1.05em;
+        color: $GrayishBlue;
+        margin-bottom: 70px;
+    }
+}
+

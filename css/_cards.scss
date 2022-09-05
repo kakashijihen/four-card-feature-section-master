@@ -1,0 +1,60 @@
+@use '_variables.scss' as *;
+.cards_container{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.cards{
+    border-radius: 8px;
+    background-color: $VeryLightGray;
+    box-shadow: 3px 10px 10px $GrayishBlue;
+    margin-bottom: 30px;
+    min-width: 310px;
+    max-width: 500px;
+    height: 222px;
+    overflow: hidden;
+}
+
+.card_cyan{
+   .line{
+     background-color: $Cyan;
+     height: 4px;
+   }
+}
+
+.card_red{
+    .line{
+      background-color: $Red;
+      height: 4px;
+    }
+ }
+
+ .card_orange{
+    .line{
+      background-color: $Orange;
+      height: 4px;
+    }
+ }
+
+ .card_blue{
+    .line{
+      background-color: $Blue;
+      height: 4px;
+    }
+ }
+
+ .content_card{
+    padding: 30px;
+    h3{
+        margin-top: 0;
+    }
+    p{
+        color: $GrayishBlue;
+        font-size: 0.89em;
+        margin: -15px 0 30px 0;        
+    }
+ }
+
+ .image{
+    text-align: right;
+ }
+
